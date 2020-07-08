@@ -13,7 +13,9 @@
 //================================================================================
 // dependencies
 //================================================================================
-/** import dependencies here */
+const miniModel = require("./lib/mini-schema");
+const orderModel = require("./lib/order-schema");
+const userModel = require("./lib/user-schema");
 
 //================================================================================
 // config
@@ -28,4 +30,8 @@
 //================================================================================
 // module
 //================================================================================
-/** module own code, usually just a list of exports if in index.js */
+module.exports = {
+    miniModel,
+    orderModel,
+    userModel,
+}
