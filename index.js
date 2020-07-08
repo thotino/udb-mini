@@ -1,5 +1,3 @@
-/* copyright (c) 2011-present CybeleTech - All rights reserved. */
-
 /**
  * project JSDoc description
  * @module {Object} module name
